@@ -8,6 +8,31 @@ public class Multiplication
 {
     public static int Multiply(int a, int b)
     {
-        return a * b;
+        return 0;
+    }
+}
+// Esta clase implementa la operación división
+public class Division
+{
+    public static double Divide(int a, int b)
+    {
+        return (double)a / b;
+    }
+}
+// Esta clase implementa la operación <Substraction>
+public class Substraction
+{
+    public static int Substract(int a, int b)
+    {
+        return a - b;
+    }
+}
+
+// Esta clase implementa la operación feature-addition
+public class Addition
+{
+    public static int Add(int a, int b)
+    {
+        return a + b;
     }
 }

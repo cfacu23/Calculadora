@@ -16,7 +16,7 @@ public class Division
 {
     public static double Divide(int a, int b)
     {
-        return 0; //cambio incorrecto
+        return (double)a / b;
     }
 }
 // Esta clase implementa la operación <Substraction>
